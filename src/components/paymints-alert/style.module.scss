@@ -1,0 +1,29 @@
+.alert {
+  border-radius: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+}
+
+.warning {
+  background-color: #fed249;
+  color: #000;
+}
+
+.error {
+  background-color: #ebc3cd;
+  color: #333;
+}
+
+.success {
+  background-color: #6ad397;
+  color: #0f4735;
+}
+
+.info {
+  background-color: #c9d1f2;
+  color: #385bf5;
+}

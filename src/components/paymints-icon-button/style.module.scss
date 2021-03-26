@@ -1,0 +1,109 @@
+.button {
+  background-color: transparent !important;
+  border-radius: 100% !important;
+  border: 1px solid transparent !important;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.14), 0 1px 10px rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2) !important;
+  width: 50px !important;
+  height: 50px !important;
+  padding: 0 !important;
+
+  i {
+    line-height: normal !important;
+  }
+}
+
+.primary {
+  color: #0f4735 !important;
+  background-color: #6ad397 !important;
+  background-position: center !important;
+  transition: background 0.8s !important;
+
+  &:hover {
+    color: #08291e !important;
+    background: #16a085 radial-gradient(circle, transparent 1%, #16a085 1%) center/15000% !important;
+  }
+
+  &:focus {
+    color: #0f4735 !important;
+    background-color: #aed9ce !important;
+    border-color: #16a085 !important;
+  }
+
+  &:active {
+    color: #0f4735 !important;
+    background-color: #7ed9a7 !important;
+    background-size: 100% !important;
+    transition: background 0s !important;
+  }
+
+  &:disabled {
+    font-weight: normal !important;
+    color: #636363 !important;
+    background-color: #e3e3e3 !important;
+    border-color: transparent !important;
+  }
+}
+
+.blue {
+  color: #4162fa !important;
+  background-color: white !important;
+  border-color: #4162fa !important;
+  background-position: center !important;
+  transition: background 0.8s !important;
+
+  &:hover {
+    color: white !important;
+    background: #4162fa radial-gradient(circle, transparent 1%, #4162fa 1%) center/15000% !important;
+  }
+
+  &:focus {
+    color: #1a3ac9 !important;
+    background-color: #aec5d9 !important;
+    border-color: #1a3ac9 !important;
+  }
+
+  &:active {
+    color: #00163d !important;
+    background-color: #5e7afa !important;
+    background-size: 100% !important;
+    transition: background 0s !important;
+  }
+
+  &:disabled {
+    color: #67686b !important;
+    background-color: #e3e3e3 !important;
+    border-color: transparent !important;
+  }
+}
+
+.dark {
+  color: white !important;
+  background-color: #2c3e50 !important;
+  background-position: center !important;
+  transition: background 0.8s !important;
+
+  &:hover {
+    color: white !important;
+    background: #34485c radial-gradient(circle, transparent 1%, #34485c 1%) center/15000% !important;
+  }
+
+  &:focus {
+    color: #2c3e50 !important;
+    background-color: #aec5d9 !important;
+    border-color: #2c3e50 !important;
+  }
+
+  &:active {
+    color: white !important;
+    background-color: #2c3e50 !important;
+    background-size: 100% !important;
+    transition: background 0s !important;
+  }
+
+  &:disabled {
+    color: #67686b !important;
+    background-color: #e3e3e3 !important;
+    border-color: transparent !important;
+  }
+}

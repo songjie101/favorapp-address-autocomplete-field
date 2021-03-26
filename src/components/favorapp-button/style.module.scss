@@ -1,0 +1,182 @@
+.button {
+  background-color: transparent !important;
+  border-radius: 4px;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12),
+    0 1px 3px rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid transparent !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  font-family: Poppins, sans-serif;
+  line-height: normal !important;
+  min-height: 32px !important;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  height: fit-content !important;
+}
+
+.block {
+  display: block;
+  width: 100% !important;
+}
+
+.primary {
+  font-weight: bold !important;
+  color: #0f4735 !important;
+  background-color: #6ad397 !important;
+  background-position: center !important;
+  transition: background 0.8s !important;
+
+  &:hover {
+    color: #08291e !important;
+    background: #16a085 radial-gradient(circle, transparent 1%, #16a085 1%) center/15000% !important;
+  }
+
+  &:focus {
+    color: #0f4735 !important;
+    background-color: #aed9ce !important;
+    border-color: #16a085 !important;
+  }
+
+  &:active {
+    color: #144937 !important;
+    background-color: #7ed9a7 !important;
+    background-size: 100% !important;
+    transition: background 0s !important;
+  }
+
+  &:disabled {
+    font-weight: normal !important;
+    color: #636363 !important;
+    background-color: #e3e3e3 !important;
+  }
+}
+
+.blue {
+  color: #4162fa !important;
+  background-color: white !important;
+  border-color: #4162fa !important;
+  background-position: center !important;
+  transition: background 0.8s !important;
+
+  &:hover {
+    color: white !important;
+    background: #4162fa radial-gradient(circle, transparent 1%, #4162fa 1%) center/15000% !important;
+  }
+
+  &:focus {
+    color: #1a3ac9 !important;
+    background-color: #aec5d9 !important;
+    border-color: #1a3ac9 !important;
+  }
+
+  &:active {
+    color: #00163d !important;
+    background-color: #5e7afa !important;
+    background-size: 100% !important;
+    transition: background 0s !important;
+  }
+
+  &:disabled {
+    color: #67686b !important;
+    background-color: #e3e3e3 !important;
+    border-color: transparent !important;
+  }
+}
+
+.inverseBlue {
+  color: white !important;
+  background-color: #4162fa  !important;
+  border-color: #4162fa !important;
+  background-position: center !important;
+  transition: background 0.8s !important;
+
+  &:hover {
+    color: #4162fa !important;
+    background: white radial-gradient(circle, transparent 1%, white 1%) center/15000% !important;
+  }
+
+  &:focus {
+    color: #1a3ac9 !important;
+    background-color: #aec5d9 !important;
+    border-color: #1a3ac9 !important;
+  }
+
+  &:active {
+    color: #00163d !important;
+    background-color: #5e7afa !important;
+    background-size: 100% !important;
+    transition: background 0s !important;
+  }
+
+  &:disabled {
+    color: #67686b !important;
+    background-color: #e3e3e3 !important;
+    border-color: transparent !important;
+  }
+}
+
+.lightBlue {
+  color: #4162fa !important;
+  background-color: #e1ecfa !important;
+  border-color: #e1ecfa !important;
+  background-position: center !important;
+  transition: background 0.8s !important;
+
+  &:hover {
+    color: #e1ecfa !important;
+    background: #4162fa radial-gradient(circle, transparent 1%, #4162fa 1%) center/15000% !important;
+  }
+
+  &:focus {
+    color: #1a3ac9 !important;
+    background-color: #aec5d9 !important;
+    border-color: #1a3ac9 !important;
+  }
+
+  &:active {
+    color: #00163d !important;
+    background-color: #5e7afa !important;
+    background-size: 100% !important;
+    transition: background 0s !important;
+  }
+
+  &:disabled {
+    color: #67686b !important;
+    background-color: #e3e3e3 !important;
+    border-color: transparent !important;
+  }
+}
+
+.pill {
+  border-radius: 50px !important;
+}
+
+.inverse {
+  color: #2b6a56 !important;
+  border-color: #2b6a56 !important;
+  background-color: white !important;
+}
+
+.link,
+.linkDark {
+  color: #2b6a56 !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+
+  &:hover {
+    span {
+      text-decoration: underline !important;
+    }
+  }
+}
+
+.linkDark {
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.noShadow {
+  box-shadow: none !important;
+}

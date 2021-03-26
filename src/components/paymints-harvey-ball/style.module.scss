@@ -1,0 +1,52 @@
+.container {
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.ball {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 5px 0 0;
+}
+
+.active {
+  background-color: #6ad397 !important;
+}
+
+.pending {
+  background-color: #fed249 !important;
+}
+
+.inactive {
+  background-color: #636363 !important;
+}
+
+.created {
+  background-color: #545454 !important;
+}
+
+.sent {
+  background-color: #ffaa80 !important;
+}
+
+.viewed {
+  background-color: #708090 !important;
+}
+
+.completed {
+  background-color: #6ad397 !important;
+}
+
+.cancelled {
+  background-color: #696969 !important;
+}
+
+.error {
+  background-color: #d45774 !important;
+}
+
+.default {
+  background-color: #4162fa !important;
+}

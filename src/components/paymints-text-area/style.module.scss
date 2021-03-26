@@ -1,0 +1,19 @@
+.textArea {
+  border: 2px solid #c9d1f2 !important;
+  border-radius: 4px !important;
+  background-color: #fff !important;
+  font-family: Poppins, sans-serif !important;
+  font-size: 16px !important;
+  color: #000 !important;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  height: auto !important;
+
+  &::placeholder {
+    color: #67686b !important;
+  }
+
+  &:not([value='']) {
+    border: 2px solid #4162fa !important;
+  }
+}
